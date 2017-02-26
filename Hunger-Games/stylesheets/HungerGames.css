@@ -1,0 +1,36 @@
+body {
+  font-size: 12px;
+}
+#chooser {
+  z-index: 1;
+}
+#chooser .bio {
+  cursor: move;
+  border: 1px solid white;
+}
+#chooser .bio:hover {
+  border: 1px solid black;
+}
+#arena {
+  background: white;
+  height: 180px;
+  width: 450px;
+  padding: 40px;
+  position: relative;
+  z-index: -1;
+}
+#arena .goodguy {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+#arena .enemy {
+  position: relative;
+  top: 540px;
+  right: -180px;
+}
+#arena .prim {
+  position: relative;
+  top: 100px;
+  right: 0;
+}
